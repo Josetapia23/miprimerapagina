@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina JT</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/c2b28dca68.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <div class="btn-menu">
+                <label for="btn-menu"><img src="img/listamenu.png" alt=""></label>
+            </div>
+            <div class="logo">
+                <a href="index.html"><img src="img/jt.jpg" alt=""></a>
+            </div>
+            <nav class="menu">
+                <a href="registro.html"> <img src="/img/usuario.png" alt=""> Iniciar sesión</a>
+                <a href="registro.html"> <img src="/img/registrarse copy.png" alt="">Reguistrate</a>
+            </nav>
+
+
+        </div>
+    </header>
+    <input type="checkbox" id="btn-menu">
+    <div class="container-menuds">
+        <div class="con-menu">
+            <nav>
+                <a href="Proyectos.html">Mis proyectos </a>
+                <a href="#">Categorias</a>
+                <a href="#">filtrar</a>
+                <a href="#">Conocenos</a>
+                <a href="#">ayuda</a>
+            </nav>
+            <label for="btn-menu" class="icon-equis"><img src="/img/atras.png" alt="atras"></label>
+        </div>
+    </div>
+
+    <div class="containerfr">
+        <div class="form-conten">
+            <h1 id="title">Registrate</h1>
+            <form>
+                <div class="input-group">
+
+                    <div class="input-field" id="nameInput">
+                        <i class="fa-regular fa-user"></i>
+                        <input type="text" placeholder="Nombre">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="password" placeholder="Contraseña">
+                    </div>
+                    <p>Olvidaste tu Contraseña <a href="#">Click aqui</a></p>
+                    <div class="btn-field">
+                        <button id="signUp" type="button">Registro</button>
+                        <button id="signIn" type="button" class="disable">Login</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="redes">
+        <footer>
+            <h3>Redes sociales</h3>
+            <ul>
+
+                <li><a href="">instagram</a></li>
+                <li><a href="">Tik Tok</a></li>
+                <li><a href="">Contatanos</a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
